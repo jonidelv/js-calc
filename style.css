@@ -1,0 +1,103 @@
+* {
+	font: bold 14px Arial, sans-serif;
+}
+
+html {
+	height: 100%;
+	background: #e8f2e7;
+	
+	background-size: cover;
+}
+
+#calc {
+	width: 325px;
+	height: auto;
+	
+	margin: 40px auto;
+	padding: 20px 20px 9px;
+	
+	background: #aaa9a9;
+	
+	border-radius: 3px;
+	box-shadow: 0px 4px gray, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+#calc td {padding: 14px;}
+
+.display {
+	
+	width: 447px; 
+	height: 91px; 
+	
+	font-size: 50px; 
+	line-height: 29	px; 
+	text-align: right; 
+	
+	padding: 0 10px;
+	
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+
+	color: white;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	text-align: right;
+	letter-spacing: 1px;
+}
+
+.button {
+	width: 93px; 
+	font-size: 42px; 
+	cursor: pointer; 
+	color: #444242;
+	background:  #f7f4f4;
+	border-radius: 3px;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+.buttonLarge { 
+	width: 221px; 
+	font-size: 42px; 
+	cursor: pointer; 
+	color: #444242;
+	background: #f7f4f4;
+	border-radius: 3px;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.func {
+	font-weight: bold; 
+	color: #444242;
+	background: #9fadc9;
+} 
+
+#C{
+	font-weight: bold; 
+	background: #ff9fa8;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+	color: white;
+}
+
+#EsIgual{
+	font-weight: bold; 
+	background: #f7c862;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+	color: #444242;
+}
+
+
+.pushbutton:active {
+	box-shadow: 0px 0px #6b54d3;
+	top: 4px;
+}
+
+.pushbuttonc:active {
+	box-shadow: 0px 0px #d3545d !important;
+	top: 4px;
+}
+
+.pushbuttonesigual:active {
+	box-shadow: 0px 0px #717a33 !important;
+	top: 4px;
+}

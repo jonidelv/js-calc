@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+  <title>JS Calculator</title>
+  <script language="Javascript" type="text/javascript" src="script.js"></script><style type="text/css"></style>
+  <link type="text/css" rel="stylesheet" href="style.css"/>
+  <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+    <div align="middle" class="major">
+  
+        <table id="calc">
+            <form> 
+                <tbody>
+                <tr>
+                    <td colspan="4">
+                        <input type="text" id="txtNumero" maxlength="20" value="0" class="display" readonly="true">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="Button" id="pow" value="exp" onclick="operar(5)" class="buttonLarge func pushbutton" >
+                    </td>
+                    <td>
+                        <input type="Button" id="Dividir" value="/" onclick="operar(4)" class="button func pushbutton" >
+                    </td>
+                    <td>
+                        <input type="Button" id="Multiplicar" value="x" onclick="operar(3)" class="button func pushbutton">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="Button" id="7" value="7" onclick="asignarNumero('7')" class="button pushbutton">
+                    </td>
+                    <td>
+                        <input type="Button" id="8" value="8" onclick="asignarNumero('8')" class="button pushbutton">
+                    </td>
+                    <td>
+                        <input type="Button" id="9" value="9" onclick="asignarNumero('9')" class="button pushbutton">
+                    </td>
+                    <td>
+                        <input type="Button" id="Restar" value="-" onclick="operar(2)" class="button func pushbutton">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="Button" id="4" value="4" onclick="asignarNumero('4')" class="button pushbutton">
+                    </td>
+                    <td>
+                        <input type="Button" id="5" value="5" onclick="asignarNumero('5')" class="button pushbutton">
+                    </td>
+                    <td>
+                        <input type="Button" id="6" value="6" onclick="asignarNumero('6')" class="button pushbutton">
+                    </td>
+        		<td>
+        			<input type="Button" id="Sumar" value="+" onclick="operar(1)" class="button func pushbutton">
+        		</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="Button" id="1" value="1" onclick="asignarNumero('1')" class="button pushbutton">
+                    </td>
+                    <td>
+                        <input type="Button" id="2" value="2" onclick="asignarNumero('2')" class="button pushbutton">
+                    </td>
+                    <td>
+                        <input type="Button" id="3" value="3" onclick="asignarNumero('3')" class="button pushbutton">
+                    </td>
+                    <td>
+                        <input type="Button" id="EsIgual" value="=" onclick="esIgual()" class="button func pushbuttonesigual">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="Button" id="0" value="0" onclick="asignarNumero('0')" class="buttonLarge pushbutton">
+                    </td>
+        			<td>
+                        <input type="Button" id="," value="," onclick="asignarComa() " class="button pushbutton">
+                    </td>
+        	    <td>
+        		<input type="Button" id="C" value="C" onclick="teclaC()" class="button func pushbuttonc">
+        	    </td>
+                </tr>
+                </tbody>
+            </form>  
+        </table>
+    </div>
+</body>
+</html>
