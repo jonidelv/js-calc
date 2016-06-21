@@ -1,2 +1,3 @@
-# JavaScript Calculator   
-Demo of a working calculator.
+# JS Calc   
+Demo of a JavaScript web calculator.<br>
+Just for fun.
