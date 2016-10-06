@@ -110,10 +110,3 @@ a {
     color: black !important;
     font-size: 12px;
 }
-
-.name-container {
-   position: absolute;
-   right: 20px;
-   bottom: 10px;
-   font-size: 10px;
-}
